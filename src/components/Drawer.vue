@@ -70,13 +70,13 @@ const buttonDisabled = computed(() => {
         <div class="flex gap-2">
           <span>Итого:</span>
           <div class="flex-1 border-b border-dashed"></div>
-          <b>{{ totalPrice }} руб</b>
+          <b>{{ totalPrice }} тг</b>
         </div>
         <!-- flex gap-2 -->
         <div class="flex gap-2">
           <span>Налог 5%:</span>
           <div class="flex-1 border-b border-dashed"></div>
-          <b>{{ vatPrice }} руб</b>
+          <b>{{ vatPrice }} тг</b>
         </div>
         <!-- flex gap-2 -->
 

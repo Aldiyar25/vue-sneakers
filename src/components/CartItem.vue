@@ -1,5 +1,5 @@
 <script setup>
-const emit = defineEmits('onClickRemove');
+const emit = defineEmits("onClickRemove");
 
 defineProps({
   id: Number,
@@ -17,7 +17,7 @@ defineProps({
       <p>{{ title }}</p>
 
       <div class="flex justify-between mt-2">
-        <b class="flex-1">{{ price }} руб.</b>
+        <b class="flex-1">{{ price }} тг.</b>
         <img
           @click="emit('onClickRemove', id)"
           class="opacity-40 hover: opacity-100 cursor-pointer transition"
